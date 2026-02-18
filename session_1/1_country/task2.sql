@@ -12,3 +12,4 @@
 
 -- write your sql code here
 
+SELECT Country FROM countries WHERE Country LIKE 'C%' ORDER BY GDPPerCapita DESC LIMIT 3 ;
